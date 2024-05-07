@@ -1,11 +1,14 @@
 import React from "react";
-
-const Contacts = () => {
+import "../App.css";
+const PersonalInfo = () => {
   return (
     <div>
-      <p>Contacts: memmedsuleymanov61@gmail.com // 055 123 45 67</p>
+      <p>Ad: Memmed Suleymanov</p>
+      <p>yas: 20</p>
+      <p>Yasayis yeri: Baki seheri,Yasamal Rayonu</p>
     </div>
   );
 };
 
-export default Contacts;
+export default PersonalInfo;
+
