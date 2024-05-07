@@ -1,13 +1,11 @@
-import React from 'react'
-import  '../App.css'
-const PersonalInfo = () => {
+import React from "react";
+
+const Contacts = () => {
   return (
     <div>
-    <p>Ad: Mirari Muradova</p>
-    <p>yas: 20</p>
-    <p>Yasayis yeri: Baki seheri,Suraxani Rayonu,Hovsan qesebesi</p>
+      <p>Contacts: memmedsuleymanov61@gmail.com // 055 123 45 67</p>
     </div>
-  )
-}
+  );
+};
 
-export default PersonalInfo
+export default Contacts;
